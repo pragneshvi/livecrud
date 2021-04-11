@@ -17,12 +17,13 @@ In this tutorial we create a live CRUD app, where Livewire handles all the AJAX 
 1. Clone repo
 2. Create a `livecrud` database
 3. Rename `.env.example` to `.env` and enter the correct details [as explained in the article](https://www.sitepoint.com/laravel-livewire-getting-started/#settingupthedatabase)
-4. Run `php artisan migrate`
-5. Run `php artisan db:seed`
-6. Run `npm install @fortawesome/fontawesome-free`
-7. Run `npm install`
-8. Run `php artisan serve`
-9. Access the app in your browser at <http://127.0.0.1:8000/>
+4. Rune `composer install`
+5. Run `php artisan migrate`
+6. Run `php artisan db:seed`
+7. Run `npm install @fortawesome/fontawesome-free`
+8. Run `npm install`
+9. Run `php artisan serve`
+10. Access the app in your browser at <http://127.0.0.1:8000/>
 
 ## License
 
